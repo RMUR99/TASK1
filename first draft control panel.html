@@ -1,0 +1,69 @@
+<html>
+
+<head>
+<style>
+body {
+background-image: url('futurism.jpg');
+background-repeat : no-repeat  ;
+background-attachment : fixed ; 
+background-size : 100% 100%
+
+}
+
+</style>
+<title>ControlPanel</title>
+</head>
+<body>
+
+<font size = "4">Font size = "4"</font><br /> 
+
+
+<ul>
+  
+  <li style="color:white;">engine 1</li>
+  <div class="slider">
+  <input type="range" min="0" max="180" value="60" oninput="rangeValue.innerText = this.value">
+  
+  <p id style="color:white;">60</p>
+</div>
+
+  
+  <li style="color:white;">engine 2</li>
+  <div class="slider">
+  <input type="range" min="0" max="180" value="90" oninput="rangeValue.innerText = this.value">
+  
+   <p id style="color:white;">90</p>
+</div>
+
+  
+  <li style="color:white;">engine 3</li>
+  <div class="slider">
+  <input type="range" min="0" max="180" value="170" oninput="rangeValue.innerText = this.value">
+  <p id style="color:white;">170</p>
+</div>
+
+  
+  <li style="color:white;">engine 4</li>
+  <div class="slider">
+  <input type="range" min="0" max="100" value="180" oninput="rangeValue.innerText = this.value">
+  <p id style="color:white;">180</p>
+</div>
+
+  
+  <li style="color:white;">engine 5</li>
+ <div class="slider">
+  <input type="range" min="0" max="180" value="85" oninput="rangeValue.innerText = this.value">
+  <p id style="color:white;">85</p>
+</div>
+
+  
+  <li style="color:white;">engine 6</li>
+  <div class="slider">
+  <input type="range" min="0" max="180" value="130" oninput="rangeValue.innerText = this.value">
+<p id style="color:white;">130</p>
+</div>
+</ul>  
+<p><input type="submit" value="save" onclick="ti()" /></p>
+<p><input type="submit" value="run" onclick="ti()" /></p>
+
+</body>
